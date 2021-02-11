@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  width: 30%;
+  min-width: 300px;
+}
+
+.title {
+  margin: 0;
+  align-self: center;
+}
+
+.group {
+  margin: 0;
+  align-self: center;
+}
