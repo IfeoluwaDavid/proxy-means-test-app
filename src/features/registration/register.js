@@ -14,18 +14,18 @@ const Register = () => {
                 <Form.Row>
                     <Form.Group className={styles.group} as={Col} controlId="formGridEmail">
                         <Form.Label>First Name</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control type="text" placeholder="First Name" />
                     </Form.Group>
                     <Form.Group className={styles.group} as={Col} controlId="formGridPassword">
                         <Form.Label>Last Name</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Control type="text" placeholder="Last Name" />
                     </Form.Group>
                 </Form.Row>
 
                 <Form.Row>
                     <Form.Group className={styles.group} as={Col} controlId="formGridPassword">
                         <Form.Label>Email Address</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Control type="email" placeholder="name@example.com" />
                     </Form.Group>
                 </Form.Row>
 
@@ -39,7 +39,7 @@ const Register = () => {
                 <Form.Row>
                     <Form.Group className={styles.group} as={Col} controlId="formGridCity">
                         <Form.Label>Confirm Password</Form.Label>
-                        <Form.Control />
+                        <Form.Control type="password" placeholder="Confirm Password" />
                     </Form.Group>
                 </Form.Row>
 

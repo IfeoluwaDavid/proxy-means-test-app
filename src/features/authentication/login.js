@@ -13,12 +13,12 @@ const Login = () => {
             <Form>
                 <fieldset>
                     <Form.Group className={styles.group}>
-                        <Form.Label htmlFor="disabledTextInput">Email Address</Form.Label>
-                        <Form.Control id="disabledTextInput" />
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" />
                     </Form.Group>
                     <Form.Group className={styles.group}>
-                        <Form.Label htmlFor="disabledSelect">Password</Form.Label>
-                        <Form.Control id="disabledSelect" />
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
                     <Form.Group className={styles.group}>
                         <Link to="/login">
