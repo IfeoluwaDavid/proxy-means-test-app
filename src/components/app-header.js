@@ -1,14 +1,19 @@
-import React from 'react'
-import { Header } from 'semantic-ui-react'
-import styles from '../styles/styles.module.css';
+import React from "react";
+import { Header } from "semantic-ui-react";
+import styled from "styled-components";
+
+const HeaderContainer = styled.div`
+  margin: 20px 10px 30px 20px;
+`;
 
 const AppHeader = () => {
-    return <div className={styles.appHeader} >
-        <Header as='h1' textAlign='center'>
-            Proxy Means Test
-        </Header>
-    </div>
+  return (
+    <HeaderContainer>
+      <Header as="h1" textAlign="center">
+        Proxy Means Test
+      </Header>
+    </HeaderContainer>
+  );
+};
 
-}
-
-export default AppHeader
+export default AppHeader;
